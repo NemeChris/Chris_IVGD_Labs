@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://3dcollsyutp7"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_06db0"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 999
+corner_radius_top_right = 999
+corner_radius_bottom_right = 999
+corner_radius_bottom_left = 999
+corner_detail = 20
+
+[node name="Fish" type="Node2D" unique_id=1237472861]
+
+[node name="Node2D" type="Node2D" parent="." unique_id=502136241]
+
+[node name="Polygon2D" type="Polygon2D" parent="Node2D" unique_id=744929933]
+position = Vector2(-92.333336, -81.66667)
+scale = Vector2(0.6923077, 0.6923077)
+color = Color(0.6747444, 1, 0.49247092, 1)
+polygon = PackedVector2Array(398, 250, 463, 294, 463, 189)
+
+[node name="Polygon2D2" type="Polygon2D" parent="Node2D" unique_id=2092796234]
+position = Vector2(-329.33334, -254.66667)
+color = Color(0.7343018, 0, 0.1203466, 1)
+polygon = PackedVector2Array(453, 295, 464.21075, 281.35208, 476, 267, 476, 296, 476, 296)
+
+[node name="Polygon2D3" type="Polygon2D" parent="Node2D" unique_id=1919517024]
+position = Vector2(-185.33334, -259.6667)
+color = Color(0.73333335, 0, 0.12156863, 1)
+polygon = PackedVector2Array(302, 399, 335, 399, 335, 428)
+
+[node name="ColorRect" type="ColorRect" parent="Node2D" unique_id=417456759]
+offset_left = 84.666664
+offset_top = 41.33333
+offset_right = 182.66666
+offset_bottom = 139.33333
+color = Color(0.22458905, 0.5064615, 0.8971955, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Panel" type="Panel" parent="Node2D" unique_id=1299414094]
+offset_left = 94.0
+offset_top = 60.0
+offset_right = 115.0
+offset_bottom = 81.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_06db0")

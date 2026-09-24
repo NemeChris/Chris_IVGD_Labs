@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://txwvxlen1w1l"]
+
+[ext_resource type="Texture2D" uid="uid://y2dy3bkmuj8u" path="res://icon.svg" id="1_3mqji"]
+[ext_resource type="Texture2D" uid="uid://b8iusewljprfb" path="res://angel.png" id="2_x4av3"]
+[ext_resource type="Texture2D" uid="uid://bwijtq2o5x7tl" path="res://Red-Dragon-PNG-Image-Transparent.png" id="3_uxrcv"]
+[ext_resource type="PackedScene" uid="uid://3dcollsyutp7" path="res://Fish.tscn" id="4_rf2cd"]
+
+[node name="Node2D" type="Node2D" unique_id=399020447]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1401772326]
+
+[node name="Icon" type="Sprite2D" parent="Sprite2D" unique_id=827887220]
+position = Vector2(529, 487)
+texture = ExtResource("1_3mqji")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=284407774]
+
+[node name="Angel" type="Sprite2D" parent="Sprite2D2" unique_id=359840311]
+position = Vector2(734.77734, 233.62503)
+scale = Vector2(0.3584034, 0.35840347)
+texture = ExtResource("2_x4av3")
+
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=1616423391]
+
+[node name="RedDragonPngImageTransparent" type="Sprite2D" parent="Sprite2D3" unique_id=324400589]
+position = Vector2(227.00002, 227)
+scale = Vector2(0.45302013, 0.45302013)
+texture = ExtResource("3_uxrcv")
+
+[node name="Fish" parent="." unique_id=1237472861 instance=ExtResource("4_rf2cd")]
+modulate = Color(0.49845904, 0.51495564, 0, 1)
+position = Vector2(351, 46)
+
+[node name="Fish2" parent="." unique_id=687475712 instance=ExtResource("4_rf2cd")]
+position = Vector2(725, 346)
+
+[node name="Fish3" parent="." unique_id=1276082431 instance=ExtResource("4_rf2cd")]
+modulate = Color(0.8627451, 0, 0.4, 1)
+position = Vector2(62, 425)
+
+[node name="Fish4" parent="." unique_id=111673371 instance=ExtResource("4_rf2cd")]
+position = Vector2(850, 26)
