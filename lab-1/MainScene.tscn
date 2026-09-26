@@ -7,22 +7,16 @@
 
 [node name="Node2D" type="Node2D" unique_id=399020447]
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1401772326]
-
-[node name="Icon" type="Sprite2D" parent="Sprite2D" unique_id=827887220]
+[node name="Icon" type="Sprite2D" parent="." unique_id=827887220]
 position = Vector2(529, 487)
 texture = ExtResource("1_3mqji")
 
-[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=284407774]
-
-[node name="Angel" type="Sprite2D" parent="Sprite2D2" unique_id=359840311]
+[node name="Angel" type="Sprite2D" parent="." unique_id=359840311]
 position = Vector2(734.77734, 233.62503)
 scale = Vector2(0.3584034, 0.35840347)
 texture = ExtResource("2_x4av3")
 
-[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=1616423391]
-
-[node name="RedDragonPngImageTransparent" type="Sprite2D" parent="Sprite2D3" unique_id=324400589]
+[node name="RedDragonPngImageTransparent" type="Sprite2D" parent="." unique_id=324400589]
 position = Vector2(227.00002, 227)
 scale = Vector2(0.45302013, 0.45302013)
 texture = ExtResource("3_uxrcv")
