@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cgbi8h8yq2fkt"]
+
+[ext_resource type="PackedScene" uid="uid://binjli4an5r44" path="res://Angel.tscn" id="1_glv2v"]
+[ext_resource type="Script" uid="uid://c2f3kko5io0hg" path="res://angelScript.gd" id="2_uu6xs"]
+
+[node name="Main" type="Node2D" unique_id=1406398745]
+
+[node name="Angel" parent="." unique_id=2032901882 instance=ExtResource("1_glv2v")]
+position = Vector2(484, -56)
+script = ExtResource("2_uu6xs")
+speed = 4
+
+[node name="Angel2" parent="." unique_id=1603257827 instance=ExtResource("1_glv2v")]
+modulate = Color(0.34901962, 0.7921569, 1, 1)
+position = Vector2(129, 33)
+script = ExtResource("2_uu6xs")
+speed = 1

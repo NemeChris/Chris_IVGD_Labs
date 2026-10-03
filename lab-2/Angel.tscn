@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://binjli4an5r44"]
+
+[ext_resource type="Texture2D" uid="uid://bblw1ftmwqv2e" path="res://angel.png" id="1_801ro"]
+
+[node name="Angel" type="Node2D" unique_id=2032901882]
+
+[node name="Angel" type="Sprite2D" parent="." unique_id=463214002]
+position = Vector2(322.00003, 196)
+scale = Vector2(0.28319326, 0.2831933)
+texture = ExtResource("1_801ro")
